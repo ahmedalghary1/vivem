@@ -1,0 +1,5 @@
+# SEO EDITABLE: Replace example.com with your production domain.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
