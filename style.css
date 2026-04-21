@@ -1,3 +1,38 @@
+/* TYPOGRAPHY EDITABLE: Add Graphik Arabic webfont files here when available for guaranteed rendering */
+@font-face {
+  font-family: "Graphik Arabic";
+  src:
+    local("Graphik Arabic"),
+    local("GraphikArabic"),
+    local("Graphik Arabic Regular"),
+    local("GraphikArabic-Regular");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik Arabic";
+  src:
+    local("Graphik Arabic Medium"),
+    local("GraphikArabic-Medium"),
+    local("Graphik Arabic Semibold"),
+    local("GraphikArabic-Semibold");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik Arabic";
+  src:
+    local("Graphik Arabic Bold"),
+    local("GraphikArabic-Bold");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   --bg: #f4f7fc;
   --bg-soft: #ffffff;
@@ -23,7 +58,7 @@
   --section-space: clamp(4.5rem, 7vw, 8rem);
   --hero-space: clamp(6.5rem, 10vw, 10rem);
   --ease: 220ms ease;
-  --font-main: "Segoe UI Variable", "SF Pro Display", "Noto Sans Arabic", "Helvetica Neue", Arial, sans-serif;
+  --font-main: "Graphik Arabic", "Segoe UI Variable", "SF Pro Display", "Noto Sans Arabic", "Helvetica Neue", Arial, sans-serif;
   --text-base: clamp(1rem, 0.25vw + 0.96rem, 1.08rem);
   --text-body: clamp(1.02rem, 0.35vw + 0.97rem, 1.12rem);
   --text-ui: clamp(0.98rem, 0.32vw + 0.94rem, 1.05rem);
